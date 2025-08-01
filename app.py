@@ -12,7 +12,7 @@ with open('scaler.joblib','rb') as file:
 with open('pca.joblib','rb') as file:
     pca=joblib.load(file)
 
-with open('final_model.joblib','rb'):
+with open('final_model.joblib','rb')as file:
     model=joblib.load(file)
 
 def prediction(input_list):
